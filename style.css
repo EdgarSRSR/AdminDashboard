@@ -11,18 +11,43 @@ padding: 0;
 
 .header{
     background: white;
- 
-
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
+.header .searchbar{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+}
+
+.header .user-small{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+}
+
+.header .user-big{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+}
+
+.header .buttons{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+}
+
+
 .sidebar{
-    background: rgb(0, 162, 255);
+    background: #6366F1;
     color: white;
    
 }
 
 .main-content{
-    background: rgb(201, 197, 197);
+    background: #E0E7FF;
     display: grid;
     grid-template-columns: 3fr 1fr;
     font-family: sans-serif;
