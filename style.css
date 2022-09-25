@@ -53,10 +53,41 @@ body{
     padding: 1em;
 }
 
+.user-big{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-big .description{
+    font-size: small;
+    font-weight: bold;
+}
+
+.user-big .user-name, .handle{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.user-big .info-user{
+    display: flex;
+    flex-direction: column;
+}
+
 .header .buttons{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 1em;
     padding: 1em;
+}
+
+button{
+    border-radius: 12px;
+    background-color: #6366F1;
+    color: white;
+    font-size: 24px;
+
 }
 
 
