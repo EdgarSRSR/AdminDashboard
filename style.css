@@ -17,8 +17,19 @@ padding: 0;
 
 .header .searchbar{
     display: flex;
-    margin: 1em;
-    padding: 1em;
+    flex-direction: row;
+    width: 100%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.searchbar input{
+    height: 28px;
+    width: 800px;
+    background: #E0E7FF;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
 }
 
 .header .user-small{
