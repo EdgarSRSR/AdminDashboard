@@ -105,6 +105,12 @@ button{
    
 }
 
+.logo {
+    align-items: flex-start;
+    padding-top: 1em;
+    
+}
+
 
 .main-content{
     background: #E0E7FF;
