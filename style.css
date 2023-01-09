@@ -7,6 +7,14 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+button{
+    border: none;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 0.2em 1em;
+    margin: 0em 0.5em;
+}
+
 .container{
     text-align: center;
     display: grid;
@@ -24,8 +32,8 @@ body{
     flex-direction: row;
     align-items: center;
     width: 100%;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5em;
 }
 
 .searchbar input{
@@ -41,16 +49,16 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1em;
-    padding: 1em;
+    margin: 0.1em;
+    padding: 0.1em;
     font-size:larger;
     font-weight:bolder;
 }
 
 .header .user-big{
     display: flex;
-    margin: 1em;
-    padding: 1em;
+    margin: 0.1em;
+    padding: 0.1em;
 }
 
 .user-big{
