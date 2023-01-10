@@ -16,7 +16,7 @@ button{
 }
 
 .container{
-    text-align: center;
+    text-align: left;
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
@@ -102,13 +102,24 @@ button{
 .sidebar{
     background: #6366F1;
     color: white;
+    padding: 1em;
    
 }
 
 .logo {
     align-items: flex-start;
     padding-top: 1em;
+    font-weight: bolder;
+    font-size:2em;
     
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    color: hotpink;
 }
 
 
@@ -141,4 +152,10 @@ button{
 
 .card .title{
     font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0.8em;
+    color: white;
 }
