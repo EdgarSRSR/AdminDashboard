@@ -128,7 +128,13 @@ a:hover{
     display: grid;
     grid-template-columns: 3fr 1fr;
     font-family: sans-serif;
-    text-align: center;
+    text-align: left;
+    padding: 1.5em 1.5em;
+}
+
+h4{
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 .main-content .card, .announcements, .trending{
@@ -147,15 +153,77 @@ a:hover{
 
 .projects .card{
     height: 200px;
-    padding: 5px;
+    padding: 2em 2em;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.projects .card .title{
+    color: black;
 }
 
 .card .title{
     font-weight: bold;
 }
 
+.icons{
+ 
+    padding: 1em;
+    bottom: 4em;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: auto;
+}
+
+.icons img{
+    margin: 0.5em;
+}
+
+.announcements{
+
+    height: 200px;
+    padding: 2em 2em;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    block-size: fit-content;
+
+}
+
+.announcements .heading{
+    color: black;
+    font-weight: bold;
+}
+
+.announcement{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-top: 1px solid #bbb;
+}
+
 ul{
     list-style-type: none;
     margin: 0.8em;
     color: white;
+}
+
+.trending{
+    height: 200px;
+    padding: 2em 2em;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    block-size: fit-content;
+}
+
+.user-small{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.avatar img{
+    border-radius: 50%;
 }
