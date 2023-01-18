@@ -157,11 +157,19 @@ h4{
     color: grey;
     display: flex;
     flex-direction: column;
-    
+    border-left: 20px solid purple;
 }
 
 .projects .card .title{
     color: black;
+}
+
+.projects .card:hover{
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 12px 12px 2px 1px rgba( 0, 0, 255, .2);
 }
 
 .card .title{
@@ -222,6 +230,17 @@ ul{
     display: flex;
     flex-direction: row;
     padding: 1em;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.user{
+    font-weight: bold;
+    color: black;
 }
 
 .avatar img{
